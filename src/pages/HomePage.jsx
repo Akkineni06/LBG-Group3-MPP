@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <div className='text'>
-        <h1>Let us help you find the property of your dreams !</h1>
+        <h1>Let us help you find the property of your dreams !!</h1>
         <p>We offer a range of properties to suit your needs</p>
         <br ></br>
          <img src={image1} alt="alt text"/>
