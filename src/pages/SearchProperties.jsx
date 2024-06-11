@@ -27,7 +27,7 @@ const SearchProperties = () => {
         const meetsBedrooms = searchCriteria.bedrooms ? property.bedrooms >= searchCriteria.bedrooms : true;
         const meetsBathrooms = searchCriteria.bathrooms ? property.bathrooms >= searchCriteria.bathrooms : true;
         const meetsGarden = searchCriteria.garden ? property.hasGarden === searchCriteria.garden : true;
-        const meetsLocation = searchCriteria.location ? property.location == searchCriteria.location : true;
+        const meetsLocation = searchCriteria.location ? property.location === searchCriteria.location : true;
         return meetsPrice && meetsBedrooms && meetsBathrooms && meetsLocation && meetsGarden;
       });
 

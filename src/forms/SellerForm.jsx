@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Displaysellers from './DisplaySellers';
 
 const SellerForm = () => {
     const [first, setFirst] = useState('');

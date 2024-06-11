@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Displaysellers from './DisplaySellers';
 
 const PropertyForm = () => {
     const [type, setType] = useState('');

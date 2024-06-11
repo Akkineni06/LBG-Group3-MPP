@@ -1,7 +1,6 @@
 
 import PropertyCard from "../forms/PropertyCard";
 import PropertyForm from "../forms/PropertyForm";
-import PropertyFilter from "../forms/PropertyFilter";
 import sellersData from '../data/sellersData.json';
 import '../App.css'
 

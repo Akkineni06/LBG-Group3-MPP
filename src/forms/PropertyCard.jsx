@@ -14,7 +14,7 @@ const PropertyCard = ({ location, bedrooms, bathrooms, type, price, imageUrl }) 
 
   return (
     <div className="wrapper">
-      <img src={imageUrl} width={395} height={250} alt= "property image" />
+      <img src={imageUrl} width={395} height={250} alt= "" />
       <p className="type">Type: {type}</p>
       <p className="bedrooms">Bedrooms: {bedrooms}</p>
       <p className="bathrooms">Bathrooms: {bathrooms}</p>      

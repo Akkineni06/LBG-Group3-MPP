@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import '../App.css'
 import image1 from '../images/image1.png'
 
