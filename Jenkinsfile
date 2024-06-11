@@ -11,11 +11,11 @@ pipeline {
                 bat 'npm install'        
             }
         }
-        //    stage('Delete') {
-        //        steps {
-        //         bat 'pm2 delete all'
-        //        }
-        //    }
+        stage('Delete') {
+               steps {
+                bat 'pm2 delete all'
+               }
+           }
         stage('Build') {
             steps {
                 bat 'npm run build'
