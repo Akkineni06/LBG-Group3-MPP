@@ -11,9 +11,15 @@ pipeline {
     //         bat 'pm2 delete all'
     //        }
     //    }
+    stage('Build') {
+           steps {
+            bat 'npm run build'
+
+           }
+       }
        stage('Run') {
            steps {
-            bat 'pm2 start "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" -- start'
+            bat 'pm2 serve ./build 3000 --name project1'
 
            }
        }
